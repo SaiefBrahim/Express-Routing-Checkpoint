@@ -1,0 +1,214 @@
+body {
+  background-image: url(/images/bgimg.jpg);
+  background-size: 150%;
+  margin-top: 0;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: auto;
+  padding-top: 1%;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  background-color: #f1be15;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+ul {
+  width: 100%;
+  margin-left: -40px;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  padding: 2% 5%;
+  transition: background-color 0.5s ease-out 100ms;
+}
+
+li > a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+}
+
+.navbar > ul > li:hover {
+  background-color: #000;
+}
+
+main {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.banner {
+  display: block;
+  margin: auto;
+  width: auto;
+}
+
+.sec {
+  margin-top: 5%;
+  text-align: center;
+}
+.sec > h1 {
+  color: #f1be15;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.sec > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-justify: auto;
+}
+
+.sec > h4 > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  transition: background-color 0.8s ease-out 100ms;
+}
+
+.sec > h4 > a:hover {
+  background-color: #f1be15;
+}
+
+.wexp {
+  margin-top: 5%;
+  text-align: center;
+}
+.wexp > h1 {
+  color: #f1be15;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.wexp > h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-justify: auto;
+  text-decoration: none;
+}
+.wexp > video {
+  width: 80%;
+  height: 60%;
+}
+
+.resume {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.resume > h1 {
+  color: #f1be15;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.resume > h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-justify: auto;
+  text-decoration: none;
+}
+
+.contact {
+  display: block;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.contact > h1 {
+  color: #f1be15;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.contact > h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-justify: auto;
+  text-decoration: none;
+}
+
+.contact > form > label {
+  display: block;
+  padding-top: 2%;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.contact > form > input {
+  margin-top: 1%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.contact > form > textarea {
+  margin-top: 1%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.contact > form > button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  background-color: #f1be15;
+  color: #fff;
+  border: 5px outset white;
+  width: 10%;
+  transition: background-color 0.8s ease-out 100ms;
+}
+
+.contact > form > button:hover {
+  background-color: black;
+}
+
+#resetb {
+  margin-bottom: 3%;
+}
+
+footer > h5 {
+  color: #000;
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.goup {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 94%;
+  padding-bottom: 2%;
+  margin-bottom: 0%;
+}
+
+.fa-circle-arrow-up {
+  color: #f1be15;
+  transition: color 0.8s ease-out 100ms;
+}
+.fa-circle-arrow-up:hover {
+  color: #000;
+}
+
+footer {
+  background-color: #f1be15;
+  padding: 1% 0 1% 0;
+  margin-top: 2%;
+}

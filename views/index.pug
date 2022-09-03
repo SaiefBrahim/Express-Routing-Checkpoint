@@ -1,0 +1,65 @@
+doctype html
+head
+  title SAIEF BRAHIM PORTFOLIO
+  link(rel='stylesheet' href='/stylesheets/style.css')
+  link(rel='icon' type='image/png' href='images/favicon.png')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  script(src='https://kit.fontawesome.com/be3487ad83.js' crossorigin='anonymous')
+  body 
+header#homelink
+  a(href='#homelink')
+    img.logo(src='images/Saieflogo.png' alt='Logo')
+  nav.navbar
+    ul(style='list-style-type:none;')
+      li
+        a(href='/') Home
+      li
+        a(href='/services') Services
+      li
+        a(href='/contact-us') Contact
+main
+  div
+    img.banner(src='images/mainbannersaief.jpg' alt='Main Banner')
+  section#aboutlink.sec
+    h1
+      i.fa-solid.fa-address-card
+      |   About Me
+    p
+      | Passionate Technical Supervisor In 
+      | Electronic Devices, Smartphones and computers Aftersales Repair with 
+      | 5+ Years of Experience.
+      br
+    h4
+      a(href='https://www.linkedin.com/in/saiefbrahim/')
+        | Follow me on Linkedin  
+        i.fa.fa-linkedin-square(style='font-size:24px')
+    p
+  #worklink.wexp
+    h1 Work Experience
+    h3 Here is one of my projects
+    video(controls='' src='' width='600px' height='480px' autoplay='' muted='') 
+  #contactlink.contact
+    h1 Get in touch
+    h2 Please Fill this form in order to reach us.
+    form
+      label(for='name')
+        b Your Name: 
+      input(type='text' placeholder='Write your name here')
+      label(for='gender')
+        b  Gender: 
+      |             Male
+      input#male(type='radio' name='gender' value='Male')
+      |             Female
+      input#female(type='radio' name='gender' value='Female')
+      label(for='email')
+        b Your Email: 
+      input(type='email' placeholder='Write your email adress')
+      label(for='message')
+        b Your Message: 
+      textarea#message(name='message' cols='30' rows='5' placeholder='Write your message')
+      button(type='submit') Send
+      button#resetb(type='reset') Clear
+  a.goup(href='#homelink')
+    i.fa-solid.fa-circle-arrow-up.fa-3x
+footer
+  h5 © Copyright 2022. All rights are reserved.
